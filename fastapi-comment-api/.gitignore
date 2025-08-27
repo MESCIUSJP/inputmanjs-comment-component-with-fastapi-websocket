@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+# If the virtual environment is in the project root, ignore its folders/files.
+# The leading slash ensures that only top-level folders are ignored.
+/Lib/
+/Scripts/
+/Include/
+/bin/
+/pyvenv.cfg
+# virtual environment environments
+.env
+pip-log.txt
+pip-delete-this-arg-safe.txt
+
+# FastAPI specific (if any generated files)
+# For example, if you have any database files or media uploads
+# db.sqlite3
+# media/
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
